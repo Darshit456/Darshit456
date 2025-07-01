@@ -369,28 +369,34 @@ const smartCity360 = {
 
 ### <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="25"> **Career Goals**
 
-```yaml
-🎯 Primary Goal:
-   "Full Stack .NET Developer"
+<div align="center">
+  <img src="https://img.shields.io/badge/🎯_PRIMARY_GOAL-Full_Stack_.NET_Developer-FF6B6B?style=for-the-badge&labelColor=000000"/>
+</div>
 
-🚀 Secondary Goals:
-   • DevOps Engineer
-   • Python Developer  
-   • ML Engineer
-```
+<br>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/🚀_DevOps_Engineer-4ECDC4?style=for-the-badge&labelColor=000000"/>
+  <img src="https://img.shields.io/badge/🐍_Python_Developer-45B7D1?style=for-the-badge&labelColor=000000"/>
+  <img src="https://img.shields.io/badge/🤖_ML_Engineer-96CEB4?style=for-the-badge&labelColor=000000"/>
+</div>
 
 </td>
 <td width="50%">
 
 ### <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="25"> **Job Seeking**
 
-```yaml
-🔍 Actively Seeking:
-   • Full Stack .NET Developer roles
-   • Software Engineering positions
-   • Remote/Hybrid opportunities
-   • Collaborative team environments
-```
+<div align="center">
+  <img src="https://img.shields.io/badge/🔍_ACTIVELY_SEEKING-Open_to_Opportunities-00D4AA?style=for-the-badge&labelColor=000000"/>
+</div>
+
+<br>
+
+**🎯 Target Positions:**
+- **💼 Full Stack .NET Developer roles**
+- **⚙️ Software Engineering positions**  
+- **🏠 Remote/Hybrid opportunities**
+- **🤝 Collaborative team environments**
 
 </td>
 </tr>
@@ -408,24 +414,28 @@ const smartCity360 = {
 <table>
 <tr>
 <td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg" width="50" height="50"/>
-<br><strong>☁️ DevOps</strong>
-<br><sub>Advanced Azure practices</sub>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg" width="60" height="60"/>
+<br>
+<img src="https://img.shields.io/badge/☁️_DevOps-Azure_Practices-0078D4?style=for-the-badge&labelColor=000000"/>
+<br><sub><strong>Advanced Azure DevOps practices</strong></sub>
 </td>
 <td align="center" width="25%">
-<img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" width="50" height="50"/>
-<br><strong>🤖 ML Deployment</strong>
-<br><sub>Model deployment strategies</sub>
+<img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" width="60" height="60"/>
+<br>
+<img src="https://img.shields.io/badge/🤖_ML_Deployment-Model_Strategies-FF6F00?style=for-the-badge&labelColor=000000"/>
+<br><sub><strong>Machine Learning deployment</strong></sub>
 </td>
 <td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="50" height="50"/>
-<br><strong>🏗️ Microservices</strong>
-<br><sub>Architecture patterns</sub>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="60" height="60"/>
+<br>
+<img src="https://img.shields.io/badge/🏗️_Microservices-Architecture-2496ED?style=for-the-badge&labelColor=000000"/>
+<br><sub><strong>Scalable architecture patterns</strong></sub>
 </td>
 <td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="50" height="50"/>
-<br><strong>🚀 Cloud-Native</strong>
-<br><sub>Modern development practices</sub>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="60" height="60"/>
+<br>
+<img src="https://img.shields.io/badge/🚀_Cloud_Native-Development-326CE5?style=for-the-badge&labelColor=000000"/>
+<br><sub><strong>Modern cloud development</strong></sub>
 </td>
 </tr>
 </table>
@@ -444,24 +454,59 @@ const smartCity360 = {
 ### <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="25"> **Current Status & Motivation**
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=500&color=00D4AA&center=true&vCenter=true&width=800&lines=%F0%9F%8E%AF+Ready+to+contribute+to+innovative+projects!;%F0%9F%92%BC+Fresh+Graduate+%26+Ready+to+Make+Impact!;%E2%9C%A8+Turning+ideas+into+reality+through+code!;%F0%9F%94%A5+Passionate+about+building+the+future!" alt="Status Typing" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2000&pause=500&color=00D4AA&center=true&vCenter=true&width=900&lines=%F0%9F%8E%AF+Ready+to+contribute+to+innovative+projects!;%F0%9F%92%BC+Fresh+Graduate+%26+Ready+to+Make+Impact!;%E2%9C%A8+Turning+ideas+into+reality+through+code!;%F0%9F%94%A5+Passionate+about+building+the+future!" alt="Status Typing" />
 </div>
 
-```yaml
-# 🌟 Professional Status
-graduate_status: "Fresh Graduate - May 2025"
-availability: "Immediately Available"
-work_preference: "Full-time, Remote/Hybrid"
-passion: "Building innovative solutions that matter"
+<br>
 
-# 💪 What I Bring
-strengths:
-  - "Strong foundation in .NET ecosystem"
-  - "Full-stack development experience"
-  - "Problem-solving mindset"
-  - "Continuous learning attitude"
-  - "Team collaboration skills"
-```
+<div align="center">
+<table>
+<tr>
+<td align="center" width="50%">
+
+**🎓 Graduate Status**
+<br>
+<img src="https://img.shields.io/badge/Fresh_Graduate-May_2025-28A745?style=for-the-badge&labelColor=000000"/>
+<br>
+<img src="https://img.shields.io/badge/Availability-Immediate-FF6B6B?style=for-the-badge&labelColor=000000"/>
+
+</td>
+<td align="center" width="50%">
+
+**💪 What I Bring**
+<br>
+<img src="https://img.shields.io/badge/Strong_.NET_Foundation-4ECDC4?style=for-the-badge&labelColor=000000"/>
+<br>
+<img src="https://img.shields.io/badge/Full_Stack_Experience-45B7D1?style=for-the-badge&labelColor=000000"/>
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+
+**🏠 Work Preference**
+<br>
+<img src="https://img.shields.io/badge/Full_Time-Preferred-96CEB4?style=for-the-badge&labelColor=000000"/>
+<br>
+<img src="https://img.shields.io/badge/Remote/Hybrid-Open-FECA57?style=for-the-badge&labelColor=000000"/>
+
+</td>
+<td align="center" width="50%">
+
+**🔥 Core Strengths**
+<br>
+<img src="https://img.shields.io/badge/Problem_Solving-Expert-FF9FF3?style=for-the-badge&labelColor=000000"/>
+<br>
+<img src="https://img.shields.io/badge/Team_Collaboration-Strong-54A0FF?style=for-the-badge&labelColor=000000"/>
+
+</td>
+</tr>
+</table>
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/💡_PASSION-Building_innovative_solutions_that_matter-FF6B35?style=for-the-badge&labelColor=000000"/>
+</div>
 
 </td>
 </tr>
