@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=2E9EF7&background=00000000&center=true&vCenter=true&multiline=true&width=600&height=100&lines=🔥+Problem+Solver+%26+Code+Enthusiast+🔥;🌟+Building+Smart+Solutions+🌟;⚡+Always+Learning+New+Technologies+⚡;🎯+Fresh+Graduate+Ready+to+Innovate+🎯" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=2E9EF7&background=00000000&center=true&vCenter=true&multiline=true&width=700&height=120&lines=Problem+Solver+and+Code+Enthusiast;Building+Smart+Solutions;Always+Learning+New+Technologies;Fresh+Graduate+Ready+to+Innovate" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -289,7 +289,9 @@ const smartCity360 = {
   deployment: {
     containerization: "Docker",
     cloud: "Azure"
-  }
+  },
+  status: "🚧 In Active Development",
+  progress: "75% Complete"
 };
 ```
 
