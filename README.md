@@ -291,7 +291,7 @@ const smartCity360 = {
     cloud: "Azure"
   },
   status: "🚧 In Active Development",
-  progress: "Just Started!"
+  progress: "75% Complete"
 };
 ```
 
@@ -367,41 +367,100 @@ const smartCity360 = {
 <tr>
 <td width="50%">
 
+### <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="25"> **Career Goals**
+
 ```yaml
-career_goals:
-  primary: "Full Stack .NET Developer"
-  secondary: 
-    - "DevOps Engineer"
-    - "Python Developer" 
-    - "ML Engineer"
+🎯 Primary Goal:
+   "Full Stack .NET Developer"
+
+🚀 Secondary Goals:
+   • DevOps Engineer
+   • Python Developer  
+   • ML Engineer
 ```
 
 </td>
 <td width="50%">
 
+### <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="25"> **Job Seeking**
+
 ```yaml
-seeking:
-  - Full Stack .NET Developer roles
-  - Software Engineering positions
-  - Remote/Hybrid opportunities
-  - Collaborative team environments
+🔍 Actively Seeking:
+   • Full Stack .NET Developer roles
+   • Software Engineering positions
+   • Remote/Hybrid opportunities
+   • Collaborative team environments
 ```
 
 </td>
 </tr>
+</table>
+</div>
+
+<div align="center">
+<table>
 <tr>
-<td colspan="2">
+<td width="100%">
+
+### <img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="25"> **Currently Learning & Mastering**
+
+<div align="center">
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg" width="50" height="50"/>
+<br><strong>☁️ DevOps</strong>
+<br><sub>Advanced Azure practices</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" width="50" height="50"/>
+<br><strong>🤖 ML Deployment</strong>
+<br><sub>Model deployment strategies</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="50" height="50"/>
+<br><strong>🏗️ Microservices</strong>
+<br><sub>Architecture patterns</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="50" height="50"/>
+<br><strong>🚀 Cloud-Native</strong>
+<br><sub>Modern development practices</sub>
+</td>
+</tr>
+</table>
+</div>
+
+</td>
+</tr>
+</table>
+</div>
+
+<div align="center">
+<table>
+<tr>
+<td width="100%">
+
+### <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="25"> **Current Status & Motivation**
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=500&color=00D4AA&center=true&vCenter=true&width=800&lines=%F0%9F%8E%AF+Ready+to+contribute+to+innovative+projects!;%F0%9F%92%BC+Fresh+Graduate+%26+Ready+to+Make+Impact!;%E2%9C%A8+Turning+ideas+into+reality+through+code!;%F0%9F%94%A5+Passionate+about+building+the+future!" alt="Status Typing" />
+</div>
 
 ```yaml
-current_learning:
-  devops: "Advanced DevOps practices with Azure ☁️"
-  ml: "Machine Learning model deployment 🤖"
-  architecture: "Microservices architecture patterns 🏗️"
-  cloud: "Cloud-native development 🚀"
+# 🌟 Professional Status
+graduate_status: "Fresh Graduate - May 2025"
+availability: "Immediately Available"
+work_preference: "Full-time, Remote/Hybrid"
+passion: "Building innovative solutions that matter"
 
-# 🎯 Ready to contribute to innovative projects!
-status: "Fresh Graduate & Ready to Make Impact! 💼"
-motivation: "Turning ideas into reality through code! ✨"
+# 💪 What I Bring
+strengths:
+  - "Strong foundation in .NET ecosystem"
+  - "Full-stack development experience"
+  - "Problem-solving mindset"
+  - "Continuous learning attitude"
+  - "Team collaboration skills"
 ```
 
 </td>
