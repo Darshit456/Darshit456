@@ -37,32 +37,153 @@
 
 <div align="center">
 
-### **Languages** <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=cs,java,python,javascript,c,cpp&theme=dark" />
-</p>
+### <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> **Languages**
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="100">
+        <img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="C#" width="65" height="65" />
+        <br>C#
+      </td>
+      <td align="center" width="100">
+        <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="65" height="65" />
+        <br>Java
+      </td>
+      <td align="center" width="100">
+        <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
+        <br>Python
+      </td>
+      <td align="center" width="100">
+        <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" />
+        <br>JavaScript
+      </td>
+      <td align="center" width="100">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="65" height="65" />
+        <br>C
+      </td>
+      <td align="center" width="100">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="65" height="65" />
+        <br>C++
+      </td>
+    </tr>
+  </table>
+</div>
 
-### **Frontend Technologies** <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="30">
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,html,css,tailwind,bootstrap&theme=dark" />
-</p>
+### <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="30"> **Frontend Technologies**
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="100">
+        <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65" />
+        <br>React
+      </td>
+      <td align="center" width="100">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="65" height="65" />
+        <br>HTML5
+      </td>
+      <td align="center" width="100">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="65" height="65" />
+        <br>CSS3
+      </td>
+      <td align="center" width="100">
+        <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind" width="65" height="65" />
+        <br>Tailwind
+      </td>
+      <td align="center" width="100">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="65" height="65" />
+        <br>Bootstrap
+      </td>
+    </tr>
+  </table>
+</div>
 
-### **Backend & Database** <img src="https://media.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.gif" width="30">
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=dotnet,sqlserver,postgresql,nodejs,express&theme=dark" />
-</p>
+### <img src="https://media.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.gif" width="30"> **Backend & Database**
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="100">
+        <img src="https://techstack-generator.vercel.app/dotnet-icon.svg" alt=".NET" width="65" height="65" />
+        <br>.NET Core
+      </td>
+      <td align="center" width="100">
+        <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="SQL Server" width="65" height="65" />
+        <br>SQL Server
+      </td>
+      <td align="center" width="100">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" width="65" height="65" />
+        <br>PostgreSQL
+      </td>
+      <td align="center" width="100">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="65" height="65" />
+        <br>Node.js
+      </td>
+      <td align="center" width="100">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express" width="65" height="65" />
+        <br>Express
+      </td>
+    </tr>
+  </table>
+</div>
 
-### **Machine Learning & Data Science** <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="30">
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch&theme=dark" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn"/>
-  <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-</p>
+### <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="30"> **Machine Learning & Data Science**
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="100">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="65" height="65" />
+        <br>Scikit-learn
+      </td>
+      <td align="center" width="100">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="Pandas" width="65" height="65" />
+        <br>Pandas
+      </td>
+      <td align="center" width="100">
+        <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" width="65" height="65" />
+        <br>TensorFlow
+      </td>
+      <td align="center" width="100">
+        <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" width="65" height="65" />
+        <br>PyTorch
+      </td>
+      <td align="center" width="100">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="NumPy" width="65" height="65" />
+        <br>NumPy
+      </td>
+    </tr>
+  </table>
+</div>
 
-### **Tools & DevOps** <img src="https://media.giphy.com/media/kbVVjU4uOUhAdXMl6Y/giphy.gif" width="30">
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,git,github,azure,postman,vscode&theme=dark" />
-</p>
+### <img src="https://media.giphy.com/media/kbVVjU4uOUhAdXMl6Y/giphy.gif" width="30"> **Tools & DevOps**
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="100">
+        <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
+        <br>Docker
+      </td>
+      <td align="center" width="100">
+        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="65" height="65" />
+        <br>Git
+      </td>
+      <td align="center" width="100">
+        <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65" />
+        <br>GitHub
+      </td>
+      <td align="center" width="100">
+        <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="Azure" width="65" height="65" />
+        <br>Azure
+      </td>
+      <td align="center" width="100">
+        <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="65" height="65" />
+        <br>Postman
+      </td>
+      <td align="center" width="100">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VS Code" width="65" height="65" />
+        <br>VS Code
+      </td>
+    </tr>
+  </table>
+</div>
 
 </div>
 
@@ -92,7 +213,7 @@
 <tr>
 <td width="50%">
 
-#### ✨ **Key Features:**
+#### <img src="https://media.giphy.com/media/VTtANKl0beDFQRLDTh/giphy.gif" width="25"> **Key Features:**
 - 🔐 **Vista Security:** JWT-based authentication with role-based access control
 - 👥 **Multi-Role System:** Admin, Doctor, and Patient dashboards
 - 📊 **Real-time Analytics:** Comprehensive medical records and appointment management
@@ -102,12 +223,20 @@
 </td>
 <td width="50%">
 
-#### 🛠️ **Tech Stack:**
+#### <img src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif" width="25"> **Tech Stack:**
 ```javascript
-const techStack = {
-  frontend: ["React 19", "Tailwind CSS", "Axios"],
-  backend: [".NET 8", "JWT Authentication"],
-  database: ["SQL Server", "Entity Framework"],
+const healthspanVista = {
+  frontend: {
+    framework: "React 19",
+    styling: "Tailwind CSS",
+    http: "Axios"
+  },
+  backend: {
+    framework: ".NET 8",
+    auth: "JWT Authentication",
+    orm: "Entity Framework"
+  },
+  database: "SQL Server",
   features: ["Real-time", "Role-based", "Responsive"]
 };
 ```
@@ -134,7 +263,7 @@ const techStack = {
 <tr>
 <td width="50%">
 
-#### 🌟 **Advanced Features:**
+#### <img src="https://media.giphy.com/media/l0HlQoLBg7MOSmwHC/giphy.gif" width="25"> **Advanced Features:**
 - 🗺️ **Interactive GIS Maps:** Real-time visualization using Leaflet.js
 - 🤖 **ML Predictions:** Population growth forecasting and resource optimization
 - 📊 **Data-Driven Decisions:** Upload and analyze city zoning maps (GeoJSON)
@@ -144,15 +273,23 @@ const techStack = {
 </td>
 <td width="50%">
 
-#### ⚡ **Architecture:**
-```python
-microservices = {
-  "frontend": "React + Leaflet.js",
-  "backend": [".NET 8", "Python FastAPI"],
-  "database": "PostgreSQL + PostGIS",
-  "ml_engine": "Scikit-learn + Pandas",
-  "deployment": "Docker + Azure"
-}
+#### <img src="https://media.giphy.com/media/LaVp0AyqR5bGsC5Cbm/giphy.gif" width="25"> **Architecture:**
+```javascript
+const smartCity360 = {
+  microservices: {
+    frontend: "React + Leaflet.js",
+    backend: [".NET 8", "Python FastAPI"],
+    database: "PostgreSQL + PostGIS"
+  },
+  ml_engine: {
+    libs: ["Scikit-learn", "Pandas"],
+    models: ["Population Growth", "Resource Optimization"]
+  },
+  deployment: {
+    containerization: "Docker",
+    cloud: "Azure"
+  }
+};
 ```
 
 </td>
@@ -172,24 +309,22 @@ microservices = {
 <div align="center">
   <table>
     <tr>
-      <td>
+      <td width="50%">
         <img height="200em" src="https://github-readme-stats.vercel.app/api?username=Darshit456&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=FF6E96&text_color=FFFFFF&icon_color=FF6E96"/>
       </td>
-      <td>
+      <td width="50%">
         <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Darshit456&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF6E96&text_color=FFFFFF"/>
       </td>
     </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Darshit456&theme=tokyonight&hide_border=true&background=0D1117&stroke=FF6E96&fire=FF6E96&currStreakLabel=FF6E96" alt="GitHub Streak"/>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=Darshit456&theme=tokyo-night&bg_color=0D1117&color=FF6E96&line=FF6E96&point=FFFFFF&area=true&hide_border=true" alt="Contribution Graph"/>
-      </td>
-    </tr>
   </table>
+</div>
+
+<div align="center">
+  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Darshit456&theme=tokyonight&hide_border=true&background=0D1117&stroke=FF6E96&fire=FF6E96&currStreakLabel=FF6E96" alt="GitHub Streak"/>
+</div>
+
+<div align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Darshit456&theme=tokyo-night&bg_color=0D1117&color=FF6E96&line=FF6E96&point=FFFFFF&area=true&hide_border=true" alt="Contribution Graph"/>
 </div>
 
 <div align="center">
@@ -224,6 +359,7 @@ microservices = {
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,12,6&height=80&section=header&animation=fadeIn"/>
 </div>
 
+<div align="center">
 <table>
 <tr>
 <td width="50%">
@@ -255,17 +391,19 @@ seeking:
 
 ```yaml
 current_learning:
-  - Advanced DevOps practices with Azure ☁️
-  - Machine Learning model deployment 🤖
-  - Microservices architecture patterns 🏗️
-  - Cloud-native development 🚀
+  devops: "Advanced DevOps practices with Azure ☁️"
+  ml: "Machine Learning model deployment 🤖"
+  architecture: "Microservices architecture patterns 🏗️"
+  cloud: "Cloud-native development 🚀"
 
 # 🎯 Ready to contribute to innovative projects!
+status: "Fresh Graduate & Ready to Make Impact! 💼"
 ```
 
 </td>
 </tr>
 </table>
+</div>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
