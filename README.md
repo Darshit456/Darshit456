@@ -1,211 +1,615 @@
-# Hi there! 👋 I'm Darshit Gohil
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshit Gohil - GitHub Profile Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+            background-color: #0d1117;
+            color: #e6edf3;
+            line-height: 1.5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #161b22;
+            border-radius: 8px;
+            padding: 32px;
+            border: 1px solid #30363d;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #2E9EF7, #7C3AED);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .typing-text {
+            background-color: #21262d;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            color: #2E9EF7;
+            border: 1px solid #30363d;
+            display: inline-block;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #f0f6fc;
+            border-bottom: 2px solid #21262d;
+            padding-bottom: 8px;
+        }
+        
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .about-item {
+            background-color: #21262d;
+            padding: 16px;
+            border-radius: 6px;
+            border-left: 4px solid #2E9EF7;
+        }
+        
+        .about-item strong {
+            color: #58a6ff;
+        }
+        
+        .tech-category {
+            margin-bottom: 24px;
+        }
+        
+        .tech-category h3 {
+            color: #7c3aed;
+            margin-bottom: 12px;
+            font-size: 1.1rem;
+        }
+        
+        .badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        
+        .badge {
+            background: linear-gradient(90deg, #2E9EF7, #7C3AED);
+            color: white;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.2s;
+        }
+        
+        .badge:hover {
+            transform: translateY(-2px);
+        }
+        
+        .project-card {
+            background-color: #21262d;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 24px;
+            transition: border-color 0.3s;
+        }
+        
+        .project-card:hover {
+            border-color: #58a6ff;
+        }
+        
+        .project-title {
+            font-size: 1.4rem;
+            color: #58a6ff;
+            margin-bottom: 12px;
+            text-decoration: none;
+        }
+        
+        .project-subtitle {
+            color: #8b949e;
+            font-style: italic;
+            margin-bottom: 16px;
+        }
+        
+        .project-badges {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+        
+        .status-badge {
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        .status-completed {
+            background-color: #238636;
+            color: white;
+        }
+        
+        .status-development {
+            background-color: #bf8700;
+            color: white;
+        }
+        
+        .feature-list {
+            list-style: none;
+            margin-bottom: 16px;
+        }
+        
+        .feature-list li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .feature-list li:before {
+            content: "•";
+            color: #2E9EF7;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+        
+        .stat-card {
+            background-color: #21262d;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 20px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #21262d 0%, #30363d 100%);
+        }
+        
+        .stat-placeholder {
+            color: #8b949e;
+            font-style: italic;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        
+        .social-link {
+            background: linear-gradient(45deg, #2E9EF7, #7C3AED);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .social-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(46, 158, 247, 0.3);
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #21262d 0%, #2E9EF7 0%, #7C3AED 100%);
+            background-size: 200% 200%;
+            border: 2px solid transparent;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            margin: 30px 0;
+            animation: gradientShift 3s ease infinite;
+        }
+        
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        .yaml-code {
+            background-color: #0d1117;
+            border: 1px solid #21262d;
+            border-radius: 8px;
+            padding: 24px;
+            font-family: 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            font-size: 1rem;
+            line-height: 1.6;
+            overflow-x: auto;
+            color: #e6edf3;
+            position: relative;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        
+        .yaml-code::before {
+            content: "yaml";
+            position: absolute;
+            top: 8px;
+            right: 12px;
+            background-color: #21262d;
+            color: #8b949e;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        .yaml-key {
+            color: #ff7b72;
+            font-weight: 600;
+        }
+        
+        .yaml-string {
+            color: #a5d6ff;
+            font-weight: 500;
+        }
+        
+        .yaml-array {
+            color: #ffa657;
+        }
+        
+        .yaml-comment {
+            color: #8b949e;
+            font-style: italic;
+        }
+        
+        .yaml-value {
+            color: #79c0ff;
+        }
+        
+        /* Animated job roles */
+        .job-roles {
+            display: inline-block;
+            position: relative;
+            min-width: 300px;
+        }
+        
+        .job-role {
+            display: inline-block;
+            opacity: 0;
+            animation: slideInFade 0.8s ease-in-out forwards;
+            font-weight: 600;
+            background: linear-gradient(45deg, #2E9EF7, #7C3AED, #10B981);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            background-size: 300% 300%;
+            animation: slideInFade 0.8s ease-in-out forwards, gradientMove 3s ease-in-out infinite;
+        }
+        
+        .job-role:nth-child(1) { animation-delay: 0s; }
+        .job-role:nth-child(2) { animation-delay: 0.2s; }
+        .job-role:nth-child(3) { animation-delay: 0.4s; }
+        .job-role:nth-child(4) { animation-delay: 0.6s; }
+        
+        @keyframes slideInFade {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes gradientMove {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        .yaml-section {
+            margin-bottom: 16px;
+        }
+        
+        .yaml-section:last-child {
+            margin-bottom: 0;
+        }
+        
+        .profile-views {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .profile-views img {
+            border-radius: 4px;
+        }
+        
+        hr {
+            border: none;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #30363d, transparent);
+            margin: 40px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 16px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .social-links {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>👋 Hi there! I'm Darshit Gohil</h1>
+            <div class="typing-text">
+                Full Stack .NET Developer | Problem Solver & Code Enthusiast | Building Smart Solutions
+            </div>
+        </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Full+Stack+.NET+Developer;Problem+Solver+%26+Code+Enthusiast;Building+Smart+Solutions;Always+Learning+New+Technologies" alt="Typing SVG" />
-</div>
+        <!-- About Section -->
+        <div class="section">
+            <h2>🚀 About Me</h2>
+            <p style="margin-bottom: 20px; color: #c9d1d9;">
+                <strong>Software Engineer</strong> passionate about creating innovative solutions that make a difference. 
+                Currently focusing on <strong>Full Stack .NET Development</strong> while expanding expertise in <strong>DevOps</strong> and <strong>Machine Learning</strong>.
+            </p>
+            
+            <div class="about-grid">
+                <div class="about-item">
+                    <strong>🔭 Currently Working On:</strong> SmartCity360 - GIS-based urban planning platform with ML predictions
+                </div>
+                <div class="about-item">
+                    <strong>🌟 Recently Completed:</strong> Healthspan Vista - Comprehensive Hospital Management System
+                </div>
+                <div class="about-item">
+                    <strong>🎯 Seeking Opportunities:</strong> Full Stack .NET Developer and related roles
+                </div>
+                <div class="about-item">
+                    <strong>🎮 Fun Fact:</strong> I love coding, playing online video games, and video editing
+                </div>
+            </div>
+        </div>
 
-## 🚀 About Me
+        <hr>
 
-**Software Engineer** passionate about creating innovative solutions that make a difference. Currently focusing on **Full Stack .NET Development** while expanding expertise in **DevOps** and **Machine Learning**.
+        <!-- Tech Stack Section -->
+        <div class="section">
+            <h2>🛠️ Tech Stack</h2>
+            
+            <div class="tech-category">
+                <h3>Languages</h3>
+                <div class="badges">
+                    <span class="badge">C#</span>
+                    <span class="badge">Java</span>
+                    <span class="badge">Python</span>
+                    <span class="badge">JavaScript</span>
+                    <span class="badge">C</span>
+                    <span class="badge">C++</span>
+                </div>
+            </div>
+            
+            <div class="tech-category">
+                <h3>Frontend Technologies</h3>
+                <div class="badges">
+                    <span class="badge">React</span>
+                    <span class="badge">HTML5</span>
+                    <span class="badge">CSS3</span>
+                    <span class="badge">Tailwind CSS</span>
+                    <span class="badge">Axios</span>
+                </div>
+            </div>
+            
+            <div class="tech-category">
+                <h3>Backend & Database</h3>
+                <div class="badges">
+                    <span class="badge">.NET Core</span>
+                    <span class="badge">SQL Server</span>
+                    <span class="badge">PostgreSQL</span>
+                    <span class="badge">Microservices</span>
+                </div>
+            </div>
+            
+            <div class="tech-category">
+                <h3>Tools & DevOps</h3>
+                <div class="badges">
+                    <span class="badge">Docker</span>
+                    <span class="badge">Git</span>
+                    <span class="badge">GitHub</span>
+                    <span class="badge">Azure</span>
+                    <span class="badge">Postman</span>
+                    <span class="badge">CI/CD</span>
+                </div>
+            </div>
+        </div>
 
-- 🔭 **Currently Working On:** [SmartCity360](https://github.com/Darshit456/SmartCity360) - GIS-based urban planning platform with ML predictions
-- 🌟 **Recently Completed:** [Healthspan Vista](https://github.com/Darshit456/HMS_Frontend) - Comprehensive Hospital Management System
-- 🎯 **Seeking Opportunities:** Full Stack .NET Developer and related roles
-- 📚 **Learning:** DevOps practices, Advanced ML techniques, Cloud technologies
-- 🎮 **Fun Fact:** I love coding, playing online video games, and video editing
+        <hr>
 
----
+        <!-- Featured Projects Section -->
+        <div class="section">
+            <h2>🏆 Featured Projects</h2>
+            
+            <div class="project-card">
+                <a href="#" class="project-title">🏥 Healthspan Vista - Hospital Management System</a>
+                <div class="project-subtitle">Your Complete Healthcare Horizon ✨</div>
+                
+                <div class="project-badges">
+                    <span class="status-badge status-completed">Completed</span>
+                    <span class="badge">React 19.0.0</span>
+                    <span class="badge">.NET 8.0</span>
+                </div>
+                
+                <ul class="feature-list">
+                    <li><strong>🔐 Vista Security:</strong> JWT-based authentication with role-based access control</li>
+                    <li><strong>👥 Multi-Role System:</strong> Admin, Doctor, and Patient dashboards</li>
+                    <li><strong>📊 Real-time Analytics:</strong> Comprehensive medical records and appointment management</li>
+                    <li><strong>🎨 Modern UI:</strong> Beautiful, responsive design with smooth animations</li>
+                </ul>
+                
+                <div style="color: #8b949e; font-size: 0.9rem;">
+                    <strong>Tech Stack:</strong> React 19, .NET 8, SQL Server, Tailwind CSS, JWT Authentication
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <a href="#" class="project-title">🏙️ SmartCity360 - Urban Planning Platform</a>
+                <div class="project-subtitle">GIS-based urban planning with ML predictions 🌍</div>
+                
+                <div class="project-badges">
+                    <span class="status-badge status-development">In Development</span>
+                    <span class="badge">Microservices</span>
+                    <span class="badge">ML Powered</span>
+                </div>
+                
+                <ul class="feature-list">
+                    <li><strong>🗺️ Interactive GIS Maps:</strong> Real-time visualization using Leaflet.js</li>
+                    <li><strong>🤖 ML Predictions:</strong> Population growth forecasting and resource optimization</li>
+                    <li><strong>🏗️ Microservices Architecture:</strong> Scalable backend with .NET 8 and Python FastAPI</li>
+                    <li><strong>☁️ Cloud-Ready:</strong> Docker containerization with Azure deployment</li>
+                </ul>
+                
+                <div style="color: #8b949e; font-size: 0.9rem;">
+                    <strong>Tech Stack:</strong> React, .NET 8, Python FastAPI, PostgreSQL + PostGIS, Docker, Azure
+                </div>
+            </div>
+        </div>
 
-## 🛠️ Tech Stack
+        <hr>
 
-### **Languages**
-<p align="left">
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
-</p>
+        <!-- GitHub Stats Section -->
+        <div class="section">
+            <h2>📊 GitHub Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-placeholder">GitHub Stats Widget<br/>Shows: commits, PRs, issues, stars</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-placeholder">Top Languages<br/>C#, JavaScript, Python, Java</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-placeholder">Contribution Streak<br/>115 contributions in last year</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-placeholder">Activity Graph<br/>Contribution timeline</div>
+                </div>
+            </div>
+        </div>
 
-### **Frontend Technologies**
-<p align="left">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
-  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt="Axios"/>
-</p>
+        <hr>
 
-### **Backend & Database**
-<p align="left">
-  <img src="https://img.shields.io/badge/.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET Core"/>
-  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/Microservices-FF6B35?style=for-the-badge&logo=microgenetics&logoColor=white" alt="Microservices"/>
-</p>
-
-### **Machine Learning & Data Science**
-<p align="left">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn"/>
-  <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="Machine Learning"/>
-</p>
-
-### **Tools & DevOps**
-<p align="left">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure"/>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/>
-  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger"/>
-  <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="CI/CD"/>
-</p>
-
----
-
-## 🏆 Featured Projects
-
-### 🏥 [Healthspan Vista - Hospital Management System](https://github.com/Darshit456/HMS_Frontend)
-**Your Complete Healthcare Horizon** ✨
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/React-19.0.0-61DAFB?style=for-the-badge&logo=react"/>
-  <img src="https://img.shields.io/badge/.NET-8.0-512BD4?style=for-the-badge&logo=dotnet"/>
-</p>
-
-- **🔐 Vista Security:** JWT-based authentication with role-based access control
-- **👥 Multi-Role System:** Admin, Doctor, and Patient dashboards
-- **📊 Real-time Analytics:** Comprehensive medical records and appointment management
-- **🎨 Modern UI:** Beautiful, responsive design with smooth animations
-- **🗄️ Enterprise Database:** SQL Server with backup/restore functionality
-
-**Tech Stack:** React 19, .NET 8, SQL Server, Tailwind CSS, JWT Authentication
-
----
-
-### 🏙️ [SmartCity360 - Urban Planning Platform](https://github.com/Darshit456/SmartCity360)
-**GIS-based urban planning with ML predictions** 🌍
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-In_Development-yellow?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Microservices-Architecture-orange?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/ML_Powered-blue?style=for-the-badge"/>
-</p>
-
-- **🗺️ Interactive GIS Maps:** Real-time visualization using Leaflet.js
-- **🤖 ML Predictions:** Population growth forecasting and resource optimization
-- **📊 Data-Driven Decisions:** Upload and analyze city zoning maps (GeoJSON)
-- **🏗️ Microservices Architecture:** Scalable backend with .NET 8 and Python FastAPI
-- **☁️ Cloud-Ready:** Docker containerization with Azure deployment
-
-**Tech Stack:** React, .NET 8, Python FastAPI, PostgreSQL + PostGIS, Docker, Azure
-
----
-
-## 📊 GitHub Statistics
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Darshit456&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Darshit456&layout=compact&langs_count=7&theme=tokyonight"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Darshit456&theme=tokyonight" alt="GitHub Streak"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Darshit456&theme=tokyo-night&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true" alt="Contribution Graph"/>
-</div>
-
----
-
-## 🏅 Problem Solving & DSA
-
-<div align="center">
-  <a href="https://leetcode.com/u/Darshit345/">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
-  </a>
-</div>
-
-Actively solving **Data Structures & Algorithms** problems to strengthen problem-solving skills and prepare for technical interviews.
-
----
-
-## 🌟 Current Focus Areas
-
-```yaml
-career_goals:
-  primary: "Full Stack .NET Developer"
-  secondary: ["DevOps Engineer", "Python Developer", "ML Engineer"]
+        <!-- Current Focus Section -->
+        <div class="section">
+            <h2>🌟 Current Focus Areas</h2>
+            <div class="yaml-code">
+<div class="yaml-section"><span class="yaml-key">career_goals:</span>
+  <span class="yaml-key">primary:</span> <span class="yaml-string">"Full Stack .NET Developer"</span>
+  <span class="yaml-key">secondary:</span> 
+    <span class="yaml-value">- <span class="job-role">"DevOps Engineer"</span></span>
+    <span class="yaml-value">- <span class="job-role">"Python Developer"</span></span>
+    <span class="yaml-value">- <span class="job-role">"ML Engineer"</span></span></div>
   
-current_learning:
-  - Advanced DevOps practices with Azure
-  - Machine Learning model deployment
-  - Microservices architecture patterns
-  - Cloud-native development
+<div class="yaml-section"><span class="yaml-key">current_learning:</span>
+  <span class="yaml-value">- Advanced DevOps practices with Azure</span>
+  <span class="yaml-value">- Machine Learning model deployment</span>
+  <span class="yaml-value">- Microservices architecture patterns</span>
+  <span class="yaml-value">- Cloud-native development</span></div>
   
-seeking:
-  - Full Stack .NET Developer roles
-  - Software Engineering positions
-  - Remote/Hybrid opportunities
-  - Collaborative team environments
-```
+<div class="yaml-section"><span class="yaml-key">seeking:</span>
+  <span class="yaml-value">- Full Stack .NET Developer roles</span>
+  <span class="yaml-value">- Software Engineering positions</span>
+  <span class="yaml-value">- Remote/Hybrid opportunities</span>
+  <span class="yaml-value">- Collaborative team environments</span></div>
 
----
+<div class="yaml-section"><span class="yaml-comment"># 🎯 Ready to contribute to innovative projects!</span></div>
+            </div>
+        </div>
 
-## 🎯 Achievements & Milestones
+        <hr>
 
-- ✅ **Completed:** Full-featured Hospital Management System with modern tech stack
-- 🚧 **In Progress:** SmartCity360 - Advanced GIS platform with ML integration
-- 🎓 **Graduated:** B.Tech in Computer Engineering from CHARUSAT University
-- 📜 **Certifications:** Planning to pursue cloud and DevOps certifications
-- 🏆 **115 Contributions:** Active contributor with consistent GitHub activity
+        <!-- Problem Solving Section -->
+        <div class="section">
+            <h2>🏅 Problem Solving & DSA</h2>
+            <div style="text-align: center; margin-bottom: 20px;">
+                <a href="https://leetcode.com/u/Darshit345/" class="badge" style="font-size: 1rem; padding: 12px 24px;">
+                    LeetCode Profile
+                </a>
+            </div>
+            <p style="text-align: center; color: #8b949e;">
+                Actively solving <strong>Data Structures & Algorithms</strong> problems to strengthen problem-solving skills and prepare for technical interviews.
+            </p>
+        </div>
 
----
+        <hr>
 
-## 🎮 Beyond Code
+        <!-- Connect Section -->
+        <div class="section">
+            <h2>📫 Let's Connect!</h2>
+            <div class="social-links">
+                <a href="https://in.linkedin.com/in/darshit-gohil-04a878241" class="social-link">LinkedIn</a>
+                <a href="https://www.instagram.com/darshit5597" class="social-link">Instagram</a>
+                <a href="https://leetcode.com/u/Darshit345/" class="social-link">LeetCode</a>
+                <a href="mailto:darshitgohil456@gmail.com" class="social-link">Email</a>
+            </div>
+        </div>
 
-When I'm not coding, you'll find me:
-- 🎮 **Gaming:** Enjoying online multiplayer games
-- 🎬 **Video Editing:** Creating and editing content
-- 📚 **Learning:** Exploring new technologies and frameworks
-- 🤝 **Networking:** Connecting with fellow developers
+        <!-- Highlight Box -->
+        <div class="highlight-box">
+            <h3 style="margin-bottom: 16px;">💡 "Building the future, one line of code at a time" 💡</h3>
+            <p style="font-style: italic;">Open to exciting Full Stack .NET Developer opportunities!</p>
+        </div>
 
----
-
-## 📫 Let's Connect!
-
-<div align="center">
-  <a href="https://in.linkedin.com/in/darshit-gohil-04a878241">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://www.instagram.com/darshit5597?igsh=MXA3eHprY2hscWRyOA==">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-  </a>
-  <a href="https://leetcode.com/u/Darshit345/">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
-  </a>
-  <a href="mailto:darshitgohil456@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</div>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Darshit456&color=blue&style=for-the-badge" alt="Profile Views"/>
-</div>
-
-<div align="center">
-  <h3>💡 "Building the future, one line of code at a time" 💡</h3>
-  <p><em>Open to exciting Full Stack .NET Developer opportunities!</em></p>
-</div>
-
----
-
-<div align="center">
-  <sub>⭐ Star my repositories if you find them interesting!</sub>
-</div>
+        <!-- Profile Views -->
+        <div class="profile-views">
+            <div style="background: linear-gradient(90deg, #2E9EF7, #7C3AED); color: white; padding: 8px 16px; border-radius: 4px; display: inline-block;">
+                Profile Views: 1,234
+            </div>
+        </div>
+    </div>
+</body>
+</html>
