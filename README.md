@@ -310,28 +310,85 @@ const smartCity360 = {
 </div>
 
 <div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=2000&pause=1000&color=FF6E96&center=true&vCenter=true&width=600&lines=📊+Analyzing+GitHub+Activity...;🔥+Consistent+Contribution+Pattern;⚡+Active+Developer+Profile;🚀+Building+Amazing+Projects!" alt="Stats Loading" />
+</div>
+
+<br>
+
+<div align="center">
   <table>
     <tr>
       <td width="50%">
-        <img height="200em" src="https://github-readme-stats.vercel.app/api?username=Darshit456&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=FF6E96&text_color=FFFFFF&icon_color=FF6E96"/>
+        <img height="200em" src="https://github-readme-stats.vercel.app/api?username=Darshit456&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=FF6E96&text_color=FFFFFF&icon_color=FF6E96&ring_color=FF6E96&fire_color=FF6E96"/>
       </td>
       <td width="50%">
-        <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Darshit456&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF6E96&text_color=FFFFFF"/>
+        <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Darshit456&layout=compact&langs_count=10&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6E96&text_color=FFFFFF&card_width=400"/>
       </td>
     </tr>
   </table>
 </div>
 
 <div align="center">
-  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Darshit456&theme=tokyonight&hide_border=true&background=0D1117&stroke=FF6E96&fire=FF6E96&currStreakLabel=FF6E96" alt="GitHub Streak"/>
+  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Darshit456&theme=radical&hide_border=true&background=0D1117&stroke=FF6E96&fire=FF6E96&currStreakLabel=FF6E96&sideNums=FFFFFF&currStreakNum=FFFFFF&dates=8B949E"/>
+</div>
+
+<br>
+
+<div align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Darshit456&bg_color=0D1117&color=FF6E96&line=FF6E96&point=FFFFFF&area=true&hide_border=true&custom_title=Darshit's%20Contribution%20Graph&title_color=FF6E96&area_color=FF6E96"/>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Darshit456&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=1&column=7&title=Commits,Stars,Followers,Repositories,MultipleLang,PullRequest"/>
 </div>
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Darshit456&theme=tokyo-night&bg_color=0D1117&color=FF6E96&line=FF6E96&point=FFFFFF&area=true&hide_border=true" alt="Contribution Graph"/>
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+</div>
+
+### <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> **Contribution Stats Summary**
+
+<div align="center">
+<table>
+<tr>
+<td align="center" width="20%">
+<img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="50"/>
+<br>
+<img src="https://img.shields.io/badge/Total_Commits-115+-28A745?style=for-the-badge&labelColor=000000"/>
+<br><sub><strong>Active Contributor</strong></sub>
+</td>
+<td align="center" width="20%">
+<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="50"/>
+<br>
+<img src="https://img.shields.io/badge/Repositories-8+-4ECDC4?style=for-the-badge&labelColor=000000"/>
+<br><sub><strong>Diverse Projects</strong></sub>
+</td>
+<td align="center" width="20%">
+<img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="50"/>
+<br>
+<img src="https://img.shields.io/badge/Languages-6+-FF6B6B?style=for-the-badge&labelColor=000000"/>
+<br><sub><strong>Multi-lingual Developer</strong></sub>
+</td>
+<td align="center" width="20%">
+<img src="https://media.giphy.com/media/LaVp0AyqR5bGsC5Cbm/giphy.gif" width="50"/>
+<br>
+<img src="https://img.shields.io/badge/Activity_Level-High-45B7D1?style=for-the-badge&labelColor=000000"/>
+<br><sub><strong>Consistent Coding</strong></sub>
+</td>
+<td align="center" width="20%">
+<img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="50"/>
+<br>
+<img src="https://img.shields.io/badge/Focus-Full_Stack-96CEB4?style=for-the-badge&labelColor=000000"/>
+<br><sub><strong>Complete Solutions</strong></sub>
+</td>
+</tr>
+</table>
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Darshit456&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=6" alt="GitHub Trophies"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=8B949E&center=true&vCenter=true&width=600&lines=📈+Consistent+growth+in+coding+skills;🎯+Focus+on+quality+over+quantity;💻+Building+meaningful+projects;🚀+Ready+for+new+challenges!" alt="Growth Typing" />
 </div>
 
 <div align="center">
