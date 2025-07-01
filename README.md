@@ -160,7 +160,7 @@ seeking:
 
 - ✅ **Completed:** Full-featured Hospital Management System with modern tech stack
 - 🚧 **In Progress:** SmartCity360 - Advanced GIS platform with ML integration
-- 🎓 **Graduating Soon:** B.Tech in Computer Engineering from CHARUSAT
+- 🎓 **Graduated:** B.Tech in Computer Engineering from CHARUSAT University
 - 📜 **Certifications:** Planning to pursue cloud and DevOps certifications
 - 🏆 **115 Contributions:** Active contributor with consistent GitHub activity
 
