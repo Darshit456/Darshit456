@@ -27,7 +27,6 @@
 - 📚 **Learning:** DevOps practices, Advanced ML techniques, Cloud technologies
 - 🎮 **Fun Fact:** I love coding, playing online video games, and video editing
 - 💬 **Ask me about:** .NET, React, Python, Machine Learning, or anything tech!
-- 📫 **Reach me:** darshitgohil456@gmail.com
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -655,9 +654,7 @@ const smartCity360 = {
   <a href="https://leetcode.com/u/Darshit345/">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=000000" alt="LeetCode"/>
   </a>
-  <a href="mailto:darshitgohil456@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email"/>
-  </a>
+
 </div>
 
 <div align="center">
