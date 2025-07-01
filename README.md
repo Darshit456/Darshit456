@@ -291,7 +291,7 @@ const smartCity360 = {
     cloud: "Azure"
   },
   status: "🚧 In Active Development",
-  progress: "75% Complete"
+  progress: "Just Started!"
 };
 ```
 
