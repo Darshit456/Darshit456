@@ -21,7 +21,7 @@
 <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">&nbsp;***Talking about Personal Stuff...***
 
 - 🔭 **Currently Working On:** [SmartCity360](https://github.com/Darshit456/SmartCity360) - GIS-based urban planning platform with ML predictions
-- 🌟 **Recently Completed:** [Healthspan Vista](https://github.com/Darshit456/HMS_Frontend) - Comprehensive Hospital Management System  
+- 🌟 **Recently Completed:** [Healthspan Vista]([https://github.com/Darshit456/HMS_Frontend](https://github.com/Darshit456/HealthSpan-Vista---Hospital-Management-System-HMS-.git)) - Comprehensive Hospital Management System  
 - 🎓 **Education:** B.Tech in Computer Engineering from CHARUSAT (Graduated May 2025)
 - 🎯 **Seeking Opportunities:** Full Stack .NET Developer and related roles
 - 📚 **Learning:** DevOps practices, Advanced ML techniques, Cloud technologies
