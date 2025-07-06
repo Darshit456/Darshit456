@@ -1,7 +1,7 @@
 # <div align="center">👋 Hi there! I'm Darshit Gohil 🚀</div>
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Full%20Stack%20.NET%20Developer&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Full%20Stack%20Software%20Engineer&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
 </div>
 
 <div align="center">
@@ -16,17 +16,42 @@
 
 <img align="right" width="400" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Coding gif" />
 
-**Software Engineer** passionate about creating innovative solutions that make a difference. Currently focusing on **Full Stack .NET Development** while expanding expertise in **DevOps** and **Machine Learning**.
+<div align="left">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2500&pause=800&color=FF6B6B&multiline=true&width=500&height=80&lines=Full+Stack+Software+Engineer+%F0%9F%92%BB;Passionate+Problem+Solver+%F0%9F%A7%A9" alt="Professional Title" />
+</div>
 
-<img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">&nbsp;***Talking about Personal Stuff...***
+**Software Engineer** passionate about creating innovative solutions that make a difference. Currently focusing on **Full Stack Development** while expanding expertise in **DevOps**, **Machine Learning**, and **Cloud Technologies**.
+
+<div align="left">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=2000&pause=500&color=4ECDC4&multiline=true&width=600&height=60&lines=%F0%9F%9A%80+Turning+Ideas+into+Digital+Reality;%E2%9C%A8+Crafting+Scalable+%26+Efficient+Solutions" alt="Mission Statement" />
+</div>
+
+<img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">&nbsp;***Professional Journey & Aspirations...***
+
+<div align="left">
+  <table>
+    <tr>
+      <td width="50%">
+        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=2000&pause=300&color=45B7D1&multiline=true&width=400&height=140&lines=%F0%9F%94%AD+Currently+Working+On%3A;SmartCity360+-+GIS+Urban+Planning;%F0%9F%8C%9F+Recently+Completed%3A;Healthspan+Vista+-+Hospital+Management;%F0%9F%8E%93+Education%3A;B.Tech+Computer+Engineering+CHARUSAT" alt="Current Focus" />
+      </td>
+      <td width="50%">
+        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=2000&pause=300&color=96CEB4&multiline=true&width=400&height=140&lines=%F0%9F%8E%AF+Seeking+Opportunities%3A;Full+Stack+Software+Engineer;%F0%9F%93%9A+Currently+Learning%3A;Advanced+DevOps+%26+Cloud+Tech;%F0%9F%8E%AE+Fun+Fact%3A;Gaming+%26+Video+Editing+Enthusiast" alt="Goals & Interests" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 - 🔭 **Currently Working On:** [SmartCity360](https://github.com/Darshit456/SmartCity360) - GIS-based urban planning platform with ML predictions
 - 🌟 **Recently Completed:** [Healthspan Vista](https://github.com/Darshit456/HealthSpan-Vista---Hospital-Management-System-HMS-.git) - Comprehensive Hospital Management System  
 - 🎓 **Education:** B.Tech in Computer Engineering from CHARUSAT (Graduated May 2025)
-- 🎯 **Seeking Opportunities:** Full Stack .NET Developer and related roles
+- 🎯 **Seeking Opportunities:** Full Stack Software Engineer and related roles
 - 📚 **Learning:** DevOps practices, Advanced ML techniques, Cloud technologies
 - 🎮 **Fun Fact:** I love coding, playing online video games, and video editing
 - 💬 **Ask me about:** .NET, React, Python, Machine Learning, or anything tech!
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=FF6E96&center=true&vCenter=true&width=700&lines=%E2%9A%A1+Dedicated+to+Excellence+in+Software+Development;%F0%9F%8C%9F+Building+Tomorrow's+Technology+Today;%F0%9F%94%A5+Ready+to+Make+Impact+in+Tech+Industry" alt="Professional Motto" />
+</div>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -426,7 +451,7 @@ const smartCity360 = {
 ### <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="25"> **Career Goals**
 
 <div align="center">
-  <img src="https://img.shields.io/badge/🎯_PRIMARY_GOAL-Full_Stack_.NET_Developer-FF6B6B?style=for-the-badge&labelColor=000000"/>
+  <img src="https://img.shields.io/badge/🎯_PRIMARY_GOAL-Full_Stack_Software_Engineer-FF6B6B?style=for-the-badge&labelColor=000000"/>
 </div>
 
 <br>
@@ -449,7 +474,7 @@ const smartCity360 = {
 <br>
 
 **🎯 Target Positions:**
-- **💼 Full Stack .NET Developer roles**
+- **💼 Full Stack Software Engineer roles**
 - **⚙️ Software Engineering positions**  
 - **🏠 Remote/Hybrid opportunities**
 - **🤝 Collaborative team environments**
@@ -673,7 +698,7 @@ const smartCity360 = {
 </div>
 
 <div align="center">
-  <h3><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> Fresh Graduate & Open to exciting Full Stack .NET Developer opportunities! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"></h3>
+  <h3><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> Fresh Graduate & Open to exciting Full Stack Software Engineer opportunities! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"></h3>
 </div>
 
 ---
