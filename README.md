@@ -685,10 +685,3 @@ const smartCity360 = {
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </div>
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=4000&pause=1000&color=8B949E&center=true&vCenter=true&width=400&lines=⭐+Star+my+repositories+if+you+find+them+interesting!;🤝+Let's+collaborate+on+exciting+projects!;📧+Feel+free+to+reach+out+anytime!" alt="Footer Typing" />
-</div>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</div>
